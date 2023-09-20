@@ -22,13 +22,15 @@ setup(
         license='MIT',
         classifiers=[
             'Programming Language :: Python :: 3.6',
-            'Programming Language :: Python :: 3.7'
+            'Programming Language :: Python :: 3.7',
+            'Programming Language :: Python :: 3.8',
+            'Programming Language :: Python :: 3.11'
             ],
         install_requires=[
             'fasttext', 'numpy', 'Janome', 'gensim', 'joblib', 'progressbar'
             ],
         extras_require={
-            'bert': ['transformers', 'torch', 'mecab-python3']
+            'bert': ['transformers', 'torch',]
             },
         tests_requires=['pytest', 'importlib-resources']
         )
