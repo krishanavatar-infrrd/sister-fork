@@ -30,7 +30,7 @@ setup(
             'fasttext', 'numpy', 'Janome', 'gensim', 'joblib', 'progressbar'
             ],
         extras_require={
-            'bert': ['transformers', 'torch',]
+            'bert': ['transformers']
             },
         tests_requires=['pytest', 'importlib-resources']
         )
